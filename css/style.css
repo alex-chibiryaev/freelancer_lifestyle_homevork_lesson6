@@ -44,12 +44,8 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 }
-
-h1 {
-	font-size: 30px;
-	font-weight: 700;
-	text-align: center;
-	margin: 0px 0px 30px 0px;
+.div {
+	padding: 30px;
 }
 h2 {
 	font-size: 20px;
@@ -57,163 +53,79 @@ h2 {
 	text-align: center;
 	margin-bottom: 30px;
 }
-h3 {
-	font-size: 17px;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 30px;
-}
-.blocks-1 {
-	background-color: #3ee215;
-	width: 50%;
-	margin: 0px auto 20px;
-	padding: 20px;
-	height: 200px;
-	overflow: scroll;
 
-}
-.blocks-2 {
-	background-color: #c9e626;
-	max-width: 50%;
-	padding: 20px;
-	margin: 0px 0px 20px 30px;
-	height: 200px;
-	overflow: auto;
-}
-.blocks-3 {
-	background-color: #1cb6ae;
-	max-width: 50%;
-	margin: -100px 50px 20px auto;
-	padding: 20px;
-	height: 200px;
-	overflow: auto;
-}
-.blocks-4 {
-	background-color: #ca5538;
-	max-width: 500px;
-	max-height: 100px;
-	overflow: hidden;
-	margin: 0px 0px 50px 100px;
-}
-.image-1 {
-	width: 100%;
-}
-.image-2 {
-	background-color: #dceb0f;
-	margin: 30px;
-	padding: 30px;
-	height: 700;
-	width: 1000px;
-}
-.image-3 {
-	width: 30%;
-	margin: 0 0 30px 100px;
-}
-.image-4 {
-	width: 500px;
+.block div {
 	height: 300px;
+	width: 300px;
+	background-color: #fff;
 	margin-bottom: 50px;
 }
-
-.span-1 {
-	display: block;
-	background-color: #3f3a3a;
-	margin: 0 0 30px 30px;
-	padding: 10px;
-	width: 300px;
-	height: 500px;
-	overflow: hidden;
+.block__one {
+	border: 10px solid rgb(230, 226, 25);
+	border-left: none;
+	border-radius: 10px 20px 30px 50px;
+	box-shadow: 10px 10px 10px 10px #000;
+	opacity: 0.2;
 }
-
-.span-2 {
-	display: inline-block;
-	background-color: #3f3a3a;
-	margin: 0 0 30px 30px;
-	padding: 10px;
-	width: 300px;
-	height: 500px;
-	overflow: scroll;
+.block__two {
+	border-left: 10px dotted #be1b1b;
+	border-right: 10px dashed #3125e4;
+	border-top: 10px double #25e455;
+	border-radius: 50%;
+	box-shadow: inset 10px 10px 10px #000;
 }
-
-.span-3 {
-	display: block;
-	background-color: #3f3a3a;
-	margin: 0 0 30px 30px;
-	padding: 10px;
-	width: 300px;
-	height: 500px;
-	overflow: auto;
+.block__three {
+	outline: 10px solid #be1b1b;
+	border-radius: 10%;
 }
-
-.span-4 {
-	display: none;
-}
-.inline-5 a {
-	display: inline-block;
-	background-color: #fff;
-	height: 100px;
-	width: 400px;
-	padding: 20px;
-	margin-bottom: 20px;
+.block2 {
 	text-align: center;
 }
-.number-one span {
-	display: block;
-	margin-bottom: 20px;
-}
-.number-two__items {
-	font-size: 0;
-}
-.number-two__items div {
-	display: inline-block;
-	max-width: 200px;
-	max-height: 200px;
-	padding: 15px;
-	margin-bottom: 20px;
+.block2 div {
+	height: 300px;
+	width: 300px;
 	background-color: #fff;
-	overflow: auto;
-	vertical-align: top;
-	font-size: 16px;
+	display: inline-block;
+	margin-right: 50px;
 }
 
-.number-three a {
-	display: inline-block;
-	margin-bottom: 30px;
-	background-color: #ffffff;
+.block2__one {
+	border: 20px solid #19b6e6;
+	border-right: none;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	box-shadow: 10px 10px 10px 10px #000;
 }
-.number-three {
-	margin-bottom: 20px;
+.block2__two {
+	border-top: 10px dotted #be1b1b;
+	border-bottom: 10px dashed #3125e4;
+	border-left: 10px double #25e455;
+	border-radius: 30%;
+	box-shadow: inset 10px 10px 10px #000;
+	opacity: 0.3;
 }
-.number-four {
-	font-size: 0;
+.block2__three {
+	outline: 10px solid #4c1bbe;
+	border-radius: 39% 61% 27% 73% / 40% 100% 0% 60% ;
 }
-.number-four p {
-	display: inline-block;
-	font-size: 16px;
-	max-width: 100px;
+.inline span {
 	background-color: #fff;
-	padding: 10px;
-	margin: 0 30px 20px 30px;
-	overflow: hidden;
 }
-.div-one {
-	max-width: 700px;
-	height: 100px;
-	background-color: #184bd6;
+.inline div {
 	padding: 30px;
 }
-.div-two {
-	max-width: 700px;
-	height: 100px;
-	background-color: #e02222;
-	padding: 30px;
-	margin: -20px 0 50px 30px;
+.span1 {
+	border: 20px solid #19b6e6;
+	border-bottom:20px dotted #19b6e6;
+	border-right: none;
+	line-height: 150%;
 }
-.span {
-	display: block;
-	background-color: rgb(157, 78, 221);
-	max-height: 200px;
-	overflow: auto;
-	padding: 20px;
-	margin-bottom: 30px;
+.span2 {
+	outline: 10px solid #be1b1b;
+	opacity: 0.5;
+}
+.span3 {
+	border-radius: 50%;
+}
+.span4 {
+	box-shadow: inset 10px 10px 10px #000;
 }
